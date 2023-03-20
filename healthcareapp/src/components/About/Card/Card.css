@@ -1,0 +1,44 @@
+.Card {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 35px;
+  background: #f7f4f4;
+  box-shadow: -12px 12px 25px #d4d4d4, 12px -12px 25px #ffffff;
+}
+
+.Card-img img {
+  width: 80%;
+  padding-top: 20px;
+}
+
+.doctor-name {
+  font-size: 1.2rem;
+  margin-top: 18px;
+}
+
+.Card-text {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.Card-socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 25px 0px;
+}
+
+.Card-socials i {
+  font-size: 28px;
+  color: #87898c;
+}
+
+.hr-1 {
+  width: 35%;
+  margin: 20px auto;
+  height: 4px;
+  background-color: #ffb703;
+  border-radius: 5px;
+  border: none;
+}
