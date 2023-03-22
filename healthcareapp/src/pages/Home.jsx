@@ -22,7 +22,7 @@ const Home = () => {
 
           <div className="home-text-btns">
             <button className="btn">Get Appointment</button>
-            <a href="#">Why Hella? </a>
+            <a href="/about">Why Shreenidhi Ayurveda? </a>
           </div>
         </div>
 
