@@ -1,6 +1,14 @@
 import React from 'react';
 import '../styles/Gallery.css';
-import doctors from '../images/gallery/doctors.jfif';
+
+import doctor1 from '../images/gallery/drk(2).jpeg'
+import doctor2 from '../images/gallery/drk(3).jpeg'
+import doctor3 from '../images/gallery/drk(4).jpeg'
+import doctor4 from '../images/gallery/drk(5).jpeg'
+import doctor5 from '../images/gallery/drk(6).jpeg'
+import doctor6 from '../images/gallery/drk(7).jpeg'
+import doctor7 from '../images/gallery/MAINIMAGE.jpeg'
+
 
 const Gallery = () => {
   return (
@@ -20,96 +28,74 @@ const Gallery = () => {
       <div className="gallery-container">
         <div className="gallery-content">
           <div className="gallery-content-image">
-            <img src={doctors} alt="doctor" />
+            <img src={doctor7} alt="doctor" />
           </div>
-          <div className="gallery-content-text">
-            <div className="text-head">
-              Lorem ipsum dolor sit amet consectetur adipisicing
-            </div>
-            <div className="text-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              itaque delectus quam ad temporibus quae architecto! Expedita
-              quidem vitae maiores iure necessitatibus reprehenderit sunt, a
-              dolore quia, cumque, ab ducimus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Omnis asperiores quam quasi, optio
-              culpa eveniet eligendi odio quos placeat totam?
-            </div>
-          </div>
+
         </div>
         <div className="gallery-content">
-          <div className="gallery-content-text">
-            <div className="text-head">
-              Lorem ipsum dolor sit amet consectetur adipisicing
-            </div>
-            <div className="text-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              itaque delectus quam ad temporibus quae architecto! Expedita
-              quidem vitae maiores iure necessitatibus reprehenderit sunt, a
-              dolore quia, cumque, ab ducimus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Omnis asperiores quam quasi, optio
-              culpa eveniet eligendi odio quos placeat totam?
-            </div>
-          </div>
+
           <div className="gallery-content-image">
-            <img src={doctors} alt="doctor" />
+            <img src={doctor2} alt="doctor" />
           </div>
         </div>
         <div className="gallery-content">
           <div className="gallery-content-image">
-            <img src={doctors} alt="doctor" />
+            <img src={doctor3} alt="doctor" />
           </div>
-          <div className="gallery-content-text">
-            <div className="text-head">
-              Lorem ipsum dolor sit amet consectetur adipisicing
-            </div>
-            <div className="text-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              itaque delectus quam ad temporibus quae architecto! Expedita
-              quidem vitae maiores iure necessitatibus reprehenderit sunt, a
-              dolore quia, cumque, ab ducimus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Omnis asperiores quam quasi, optio
-              culpa eveniet eligendi odio quos placeat totam?
-            </div>
-          </div>
+     
         </div>
         <div className="gallery-content">
-          <div className="gallery-content-text">
-            <div className="text-head">
-              Lorem ipsum dolor sit amet consectetur adipisicing
-            </div>
-            <div className="text-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              itaque delectus quam ad temporibus quae architecto! Expedita
-              quidem vitae maiores iure necessitatibus reprehenderit sunt, a
-              dolore quia, cumque, ab ducimus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Omnis asperiores quam quasi, optio
-              culpa eveniet eligendi odio quos placeat totam?
-            </div>
-          </div>
+  
           <div className="gallery-content-image">
-            <img src={doctors} alt="doctor" />
+            <img src={doctor4} alt="doctor" />
           </div>
         </div>
         <div className="gallery-content">
           <div className="gallery-content-image">
-            <img src={doctors} alt="doctor" />
+            <img src={doctor5} alt="doctor" />
           </div>
-          <div className="gallery-content-text">
-            <div className="text-head">
-              Lorem ipsum dolor sit amet consectetur adipisicing
-            </div>
-            <div className="text-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
-              itaque delectus quam ad temporibus quae architecto! Expedita
-              quidem vitae maiores iure necessitatibus reprehenderit sunt, a
-              dolore quia, cumque, ab ducimus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Omnis asperiores quam quasi, optio
-              culpa eveniet eligendi odio quos placeat totam?
-            </div>
+         
+        </div>
+      </div>
+      
+      
+
+      <div className="gallery-container">
+        <div className="gallery-content">
+          <div className="gallery-content-image">
+            <img src={doctor6} alt="doctor" />
           </div>
+    
+        </div>
+        <div className="gallery-content">
+      
+          <div className="gallery-content-image">
+            <img src={doctor1} alt="doctor" />
+          </div>
+        </div>
+        <div className="gallery-content">
+          <div className="gallery-content-image">
+            <img src={doctor3} alt="doctor" />
+          </div>
+       
+        </div>
+        <div className="gallery-content">
+   
+          <div className="gallery-content-image">
+            <img src={doctor4} alt="doctor" />
+          </div>
+        </div>
+        <div className="gallery-content">
+          <div className="gallery-content-image">
+            <img src={doctor5} alt="doctor" />
+          </div>
+          
         </div>
       </div>
     </div>
+    
+
+    
   );
 };
 

@@ -9,7 +9,7 @@ const Card = () => {
         <img src={doctor} alt="Card" />
       </div>
       <div className="Card-name">
-        <h4 className="doctor-name">Dr. William Thompson</h4>
+        <h4 className="doctor-name">Dr. Mayur Kulkarni</h4>
       </div>
       <hr className="hr-1" />
       <div className="Card-text">
